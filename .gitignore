@@ -11,5 +11,10 @@ ENV/
 env.bak/
 venv.bak/
 
+#db
+db.sqlite3
+
+i/
+
 # Mine
 json_files/

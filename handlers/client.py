@@ -1,8 +1,10 @@
 from aiogram import Router, F
 from aiogram.filters import Command
+from aiogram import types
+from aiogram import Bot
 
 # mine
-from aiogram import types
+from others.send_email import send_email_message, new_user
 
 router = Router()
 
@@ -23,6 +25,9 @@ Google Play: https://play.google.com/store/apps/details?id=org.irregular_verbs.i
 @router.message(Command('start'))
 async def cmd_start(message: types.Message):
     await message.answer(text=msg)
+    username = message.from_user.username
+    new_user(username)
+    send_email_message()
 
 @router.message(Command('description'))
 async def cmd_start(message: types.Message):
