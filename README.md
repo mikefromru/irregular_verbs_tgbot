@@ -27,7 +27,7 @@ source venv/bin/activate
 ```
 5. Установить зависимости
 ```
-python install -r requirements.txt
+pip install -r requirements.txt
 ```
 6. Переименовать json_files.EXAMPLE в json_files
 7. Создать `.env` файл в корне проекта
