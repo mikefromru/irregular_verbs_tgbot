@@ -15,7 +15,7 @@ git clone https://github.com/mikefromru/irregular_verbs_tgbot.git
 ```
 2. Перейти в папку проекта
 ```
-cd /t/irregular_verbs_tgbot
+cd irregular_verbs_tgbot
 ```
 3. Создать виртуальное окружение
 ```
