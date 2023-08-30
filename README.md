@@ -29,7 +29,8 @@ source venv/bin/activate
 ```
 python install -r requirements.txt
 ```
-6. Создать `.env` файл в корне проекта
+6. Переименовать json_files.EXAMPLE в json_files
+7. Создать `.env` файл в корне проекта
 ```
 TOKEN=your_token_from_telegram
 RECIPIENTS='["emai_for_getting_messages_who_run_the_bot@yandex.ru"]'
