@@ -37,4 +37,8 @@ RECIPIENTS='["emai_for_getting_messages_who_run_the_bot@yandex.ru"]'
 GMAIL_USER=your_email_gmail@gmail.com
 GMAIL_PASSWORD=your_password
 ```
+8. Запустить бота
+```
+python main.py
+```
 
